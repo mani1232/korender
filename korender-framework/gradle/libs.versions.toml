@@ -1,5 +1,5 @@
 [versions]
-agp = "8.13.1"
+agp = "9.0.0-beta01"
 android-compileSdk = "36"
 android-minSdk = "29"
 android-targetSdk = "36"
@@ -8,7 +8,6 @@ commonsMath3 = "3.6.1"
 compose = "1.9.3"
 kotlin = "2.2.21"
 kotlinxCoroutinesCore = "1.10.2"
-kotlinxBrowser = "0.5.0"
 kotlinxSerializationJson = "1.9.0"
 lwjgl3-awt = "0.2.3"
 lwjgl = "3.3.6"
@@ -19,7 +18,6 @@ commons-math3 = { module = "org.apache.commons:commons-math3", version.ref = "co
 kotlin-reflect = { module = "org.jetbrains.kotlin:kotlin-reflect", version.ref = "kotlin" }
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activityCompose" }
 kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinxCoroutinesCore" }
-kotlinx-browser = { module = "org.jetbrains.kotlinx:kotlinx-browser", version.ref = "kotlinxBrowser" }
 
 kotlinx-coroutines-swing = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-swing", version.ref = "kotlinxCoroutinesCore" }
 kotlinx-serialization-core = { module = "org.jetbrains.kotlinx:kotlinx-serialization-core", version.ref = "kotlinxSerializationJson" }
